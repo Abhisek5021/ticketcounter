@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    border-style: double;
+    font-weight: 10rem;
+    font-size: 5rem;
+}
+p{
+    text-align: center;
+    font-size: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button{
+    text-align: center;
+    font-size: larger;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    transition: 0.3s linear;
+}
+button:active{
+    transform: scale(0.90);
+    box-shadow: black 2px 2px 3px 3px;
+}
